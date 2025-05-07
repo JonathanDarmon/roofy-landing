@@ -1,4 +1,5 @@
-<!DOCTYPE html><html lang="he" dir="rtl">
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -8,36 +9,51 @@
       margin: 0;
       padding: 0;
       font-family: "Varela Round", sans-serif;
-      background-color: #f9f9f9;
+      background: linear-gradient(135deg, #fce3ec, #ffe6fa, #e0f7fa);
+      min-height: 100vh;
       display: flex;
       justify-content: center;
       align-items: center;
-      height: 100vh;
-      text-align: center;
       color: #333;
-      direction: rtl;
     }
+
     .container {
+      background-color: #ffffffcc;
+      backdrop-filter: blur(10px);
+      border-radius: 24px;
+      padding: 2rem;
       max-width: 600px;
-      padding: 1rem;
+      text-align: center;
+      box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
     }
+
+    .logo {
+      width: 80px;
+      height: 80px;
+      margin-bottom: 1rem;
+    }
+
     h1 {
       font-size: 2.5rem;
       margin-bottom: 1rem;
     }
+
     p {
       font-size: 1.25rem;
-      color: #666;
+      color: #555;
+      line-height: 1.8;
     }
   </style>
   <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
 </head>
 <body>
   <div class="container">
+    <img class="logo" src="https://em-content.zobj.net/source/microsoft-teams/363/dog-face_1f436.png" alt="רופי כלב">
     <h1>רופי מחפש לכם דירה...</h1>
     <p>
-      אתר חדש שיעזור לכם למצוא שוכרים או דירה – בדרך נוחה, חכמה, ועם טוויסט כלבי. <br>
-      אנחנו עובדים על זה. תשארו קרובים.
+      אתר חדש שיעזור לכם למצוא שוכרים או דירה – <br>
+      בצורה חכמה, נוחה, ועם טוויסט כלבי 🐶<br>
+      אנחנו עובדים על זה – תשארו קרובים!
     </p>
   </div>
 </body>
